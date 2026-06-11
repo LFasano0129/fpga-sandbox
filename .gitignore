@@ -1,0 +1,36 @@
+# Vivado project files
+*.jou
+*.log
+*.str
+*.bit
+*.ltx
+
+# Vivado generated directories
+.Xil/
+vivado*/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+*.hbs/
+*.wdf/
+
+# Vivado HLS
+*.ap_*
+solution*/
+
+# Modelsim
+*.vcd
+transcript
+vsim.wlf
+work/
+
+# Misc
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
