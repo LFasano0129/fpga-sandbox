@@ -1,11 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Engineer:      Logan Fasano
-// Create Date:   06/11/2026
-// Module Name:   tb_led_blink
-// Project Name:  led-blink
-// Description:   Testbench for led_blink module, verifies counter and LED toggle
-//////////////////////////////////////////////////////////////////////////////////
 
 module tb_led_blink(
 
@@ -25,11 +18,11 @@ module tb_led_blink(
     always #5 clk = ~clk; // toggle every 5ns
 
     initial begin 
-        rst = 1;        // assert reset
-        #30;            // wait 30ns (3 cycles)
-        rst = 0;        // release reset
-        #100;           // wait 100ns to observe behavior
-        $finish;        // end simulation
+        rst = 1;
+        #35;
+        rst = 0;
+        #500;        // extend this much further
+        $finish;
     end
 
 endmodule
