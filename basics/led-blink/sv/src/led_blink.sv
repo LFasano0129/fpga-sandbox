@@ -1,12 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Engineer:      Logan Fasano
-// Create Date:   06/11/2026
-// Module Name:   led_blink
-// Project Name:  led-blink
-// Target Devices: Arty A7-100T
-// Description:   Simple LED blinker, divides 100MHz clock to blink LED at ~1Hz
-//////////////////////////////////////////////////////////////////////////////////
 
 module led_blink(
     input  logic clk,    // 100MHz onboard clock

@@ -4,6 +4,8 @@
 *.str
 *.bit
 *.ltx
+*.xpr
+dfx_runtime.txt
 
 # Vivado generated directories
 .Xil/

@@ -12,7 +12,7 @@ A 26-bit counter increments on every rising clock edge. When the counter reaches
 ## Files
 - `src/led_blink.sv` — Top level LED blink module
 - `sim/tb_led_blink.sv` — Testbench with parameterized counter override for simulation
-- `constraints/led_blink.xdc` — Pin constraints for clock, reset, and LED
+- `led_blink/constraints/led_blink.xdc` — Pin constraints for clock, reset, and LED
 
 ## Simulation
 1. Open project in Vivado
